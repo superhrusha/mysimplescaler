@@ -75,7 +75,7 @@ class ScalingManager {
         BufferedImage result = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
         Graphics g = result.getGraphics();
-        g.setColor(Color.GREEN);
+        g.setColor(Color.BLACK);
         g.fillRect(0, 0, width, height);
 
         // compute offset so the original image will be centered
